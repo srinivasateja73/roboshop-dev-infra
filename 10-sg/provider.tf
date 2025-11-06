@@ -7,7 +7,7 @@ terraform {
   }
 
   backend "s3" {
-    bucket = "dawsteja-remote-bucket-for-terraform"
+    bucket = "dawsteja-remote-bucket-for-terraforms"
     key    = "sg-terraform-key"
     region = "us-east-1"
     use_lockfile = true
